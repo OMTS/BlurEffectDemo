@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B947E61829328100012C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B947E51829328100012C1C /* Foundation.framework */; };
+		69B947E81829328100012C1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B947E71829328100012C1C /* CoreGraphics.framework */; };
+		69B947EA1829328100012C1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B947E91829328100012C1C /* UIKit.framework */; };
+		69B947F01829328100012C1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B947EE1829328100012C1C /* InfoPlist.strings */; };
+		69B947F21829328100012C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B947F11829328100012C1C /* main.m */; };
+		69B947F61829328100012C1C /* BEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B947F51829328100012C1C /* BEAppDelegate.m */; };
+		69B947F91829328100012C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B947F71829328100012C1C /* Main.storyboard */; };
+		69B947FC1829328100012C1C /* BEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B947FB1829328100012C1C /* BEViewController.m */; };
+		69B947FE1829328100012C1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B947FD1829328100012C1C /* Images.xcassets */; };
+		69B948051829328100012C1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B948041829328100012C1C /* XCTest.framework */; };
+		69B948061829328100012C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B947E51829328100012C1C /* Foundation.framework */; };
+		69B948071829328100012C1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B947E91829328100012C1C /* UIKit.framework */; };
+		69B9480F1829328100012C1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B9480D1829328100012C1C /* InfoPlist.strings */; };
+		69B948111829328200012C1C /* BlurEffectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B948101829328200012C1C /* BlurEffectDemoTests.m */; };
+		69B9481B1829347000012C1C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B9481A1829347000012C1C /* MapKit.framework */; };
+		69B9481F18293A4200012C1C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B9481E18293A4200012C1C /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B948081829328100012C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B947DA1829328100012C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B947E11829328100012C1C;
+			remoteInfo = BlurEffectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B947E21829328100012C1C /* BlurEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B947E51829328100012C1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69B947E71829328100012C1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69B947E91829328100012C1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69B947ED1829328100012C1C /* BlurEffectDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurEffectDemo-Info.plist"; sourceTree = "<group>"; };
+		69B947EF1829328100012C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B947F11829328100012C1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69B947F31829328100012C1C /* BlurEffectDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurEffectDemo-Prefix.pch"; sourceTree = "<group>"; };
+		69B947F41829328100012C1C /* BEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEAppDelegate.h; sourceTree = "<group>"; };
+		69B947F51829328100012C1C /* BEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEAppDelegate.m; sourceTree = "<group>"; };
+		69B947F81829328100012C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B947FA1829328100012C1C /* BEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEViewController.h; sourceTree = "<group>"; };
+		69B947FB1829328100012C1C /* BEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEViewController.m; sourceTree = "<group>"; };
+		69B947FD1829328100012C1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69B948031829328100012C1C /* BlurEffectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurEffectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B948041829328100012C1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69B9480C1829328100012C1C /* BlurEffectDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurEffectDemoTests-Info.plist"; sourceTree = "<group>"; };
+		69B9480E1829328100012C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B948101829328200012C1C /* BlurEffectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurEffectDemoTests.m; sourceTree = "<group>"; };
+		69B9481A1829347000012C1C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		69B9481D18293A4200012C1C /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		69B9481E18293A4200012C1C /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B947DF1829328100012C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B9481B1829347000012C1C /* MapKit.framework in Frameworks */,
+				69B947E81829328100012C1C /* CoreGraphics.framework in Frameworks */,
+				69B947EA1829328100012C1C /* UIKit.framework in Frameworks */,
+				69B947E61829328100012C1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B948001829328100012C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B948051829328100012C1C /* XCTest.framework in Frameworks */,
+				69B948071829328100012C1C /* UIKit.framework in Frameworks */,
+				69B948061829328100012C1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B947D91829328100012C1C = {
+			isa = PBXGroup;
+			children = (
+				69B947EB1829328100012C1C /* BlurEffectDemo */,
+				69B9480A1829328100012C1C /* BlurEffectDemoTests */,
+				69B947E41829328100012C1C /* Frameworks */,
+				69B947E31829328100012C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B947E31829328100012C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B947E21829328100012C1C /* BlurEffectDemo.app */,
+				69B948031829328100012C1C /* BlurEffectDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B947E41829328100012C1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B9481A1829347000012C1C /* MapKit.framework */,
+				69B947E51829328100012C1C /* Foundation.framework */,
+				69B947E71829328100012C1C /* CoreGraphics.framework */,
+				69B947E91829328100012C1C /* UIKit.framework */,
+				69B948041829328100012C1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69B947EB1829328100012C1C /* BlurEffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69B9481C18293A0000012C1C /* Apple blur effect */,
+				69B947F41829328100012C1C /* BEAppDelegate.h */,
+				69B947F51829328100012C1C /* BEAppDelegate.m */,
+				69B947F71829328100012C1C /* Main.storyboard */,
+				69B947FA1829328100012C1C /* BEViewController.h */,
+				69B947FB1829328100012C1C /* BEViewController.m */,
+				69B947FD1829328100012C1C /* Images.xcassets */,
+				69B947EC1829328100012C1C /* Supporting Files */,
+			);
+			path = BlurEffectDemo;
+			sourceTree = "<group>";
+		};
+		69B947EC1829328100012C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B947ED1829328100012C1C /* BlurEffectDemo-Info.plist */,
+				69B947EE1829328100012C1C /* InfoPlist.strings */,
+				69B947F11829328100012C1C /* main.m */,
+				69B947F31829328100012C1C /* BlurEffectDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B9480A1829328100012C1C /* BlurEffectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B948101829328200012C1C /* BlurEffectDemoTests.m */,
+				69B9480B1829328100012C1C /* Supporting Files */,
+			);
+			path = BlurEffectDemoTests;
+			sourceTree = "<group>";
+		};
+		69B9480B1829328100012C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B9480C1829328100012C1C /* BlurEffectDemoTests-Info.plist */,
+				69B9480D1829328100012C1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B9481C18293A0000012C1C /* Apple blur effect */ = {
+			isa = PBXGroup;
+			children = (
+				69B9481D18293A4200012C1C /* UIImage+ImageEffects.h */,
+				69B9481E18293A4200012C1C /* UIImage+ImageEffects.m */,
+			);
+			name = "Apple blur effect";
+			path = AppleBlurEffect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B947E11829328100012C1C /* BlurEffectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B948141829328200012C1C /* Build configuration list for PBXNativeTarget "BlurEffectDemo" */;
+			buildPhases = (
+				69B947DE1829328100012C1C /* Sources */,
+				69B947DF1829328100012C1C /* Frameworks */,
+				69B947E01829328100012C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurEffectDemo;
+			productName = BlurEffectDemo;
+			productReference = 69B947E21829328100012C1C /* BlurEffectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B948021829328100012C1C /* BlurEffectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B948171829328200012C1C /* Build configuration list for PBXNativeTarget "BlurEffectDemoTests" */;
+			buildPhases = (
+				69B947FF1829328100012C1C /* Sources */,
+				69B948001829328100012C1C /* Frameworks */,
+				69B948011829328100012C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B948091829328100012C1C /* PBXTargetDependency */,
+			);
+			name = BlurEffectDemoTests;
+			productName = BlurEffectDemoTests;
+			productReference = 69B948031829328100012C1C /* BlurEffectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B947DA1829328100012C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BE;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Romain ASNAR";
+				TargetAttributes = {
+					69B948021829328100012C1C = {
+						TestTargetID = 69B947E11829328100012C1C;
+					};
+				};
+			};
+			buildConfigurationList = 69B947DD1829328100012C1C /* Build configuration list for PBXProject "BlurEffectDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B947D91829328100012C1C;
+			productRefGroup = 69B947E31829328100012C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B947E11829328100012C1C /* BlurEffectDemo */,
+				69B948021829328100012C1C /* BlurEffectDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B947E01829328100012C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B947FE1829328100012C1C /* Images.xcassets in Resources */,
+				69B947F01829328100012C1C /* InfoPlist.strings in Resources */,
+				69B947F91829328100012C1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B948011829328100012C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B9480F1829328100012C1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B947DE1829328100012C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B9481F18293A4200012C1C /* UIImage+ImageEffects.m in Sources */,
+				69B947FC1829328100012C1C /* BEViewController.m in Sources */,
+				69B947F21829328100012C1C /* main.m in Sources */,
+				69B947F61829328100012C1C /* BEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B947FF1829328100012C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B948111829328200012C1C /* BlurEffectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B948091829328100012C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B947E11829328100012C1C /* BlurEffectDemo */;
+			targetProxy = 69B948081829328100012C1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B947EE1829328100012C1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B947EF1829328100012C1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69B947F71829328100012C1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B947F81829328100012C1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B9480D1829328100012C1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B9480E1829328100012C1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B948121829328200012C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69B948131829328200012C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B948151829328200012C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurEffectDemo/BlurEffectDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlurEffectDemo/BlurEffectDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69B948161829328200012C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurEffectDemo/BlurEffectDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlurEffectDemo/BlurEffectDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69B948181829328200012C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurEffectDemo.app/BlurEffectDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurEffectDemo/BlurEffectDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlurEffectDemoTests/BlurEffectDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69B948191829328200012C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurEffectDemo.app/BlurEffectDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurEffectDemo/BlurEffectDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlurEffectDemoTests/BlurEffectDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B947DD1829328100012C1C /* Build configuration list for PBXProject "BlurEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B948121829328200012C1C /* Debug */,
+				69B948131829328200012C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B948141829328200012C1C /* Build configuration list for PBXNativeTarget "BlurEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B948151829328200012C1C /* Debug */,
+				69B948161829328200012C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B948171829328200012C1C /* Build configuration list for PBXNativeTarget "BlurEffectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B948181829328200012C1C /* Debug */,
+				69B948191829328200012C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B947DA1829328100012C1C /* Project object */;
+}
